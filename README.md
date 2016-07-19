@@ -1,7 +1,7 @@
-Javascript -  Salesforce APP
+ReactJS-Redux -  Salesforce APP
 ===================
 
-This skeleton app serve as base to develop client-side app in Salesforce. The app has the minimal dependencies to  work with ES6, Webpack and JSforce.
+This skeleton app serve as base to develop ReactJS-Redux apps in Salesforce. The app has the minimal dependencies to  work with ES6, Webpack, Redux, Sass and JSforce.
 
 ----------
 
@@ -42,7 +42,7 @@ Example
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
       </head>
         <body>
-          <div id="container">
+          <div id="react-app">
           </div>
         </body>
         <script type="text/javascript">
@@ -69,5 +69,8 @@ Edit salesforce.config.js file:
 	password: '',
 	zipName:'',
 	zipDescription: ''
+
+### TO-DO
+  - UnitTest
 
 
